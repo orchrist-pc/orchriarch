@@ -1,0 +1,10 @@
+kitty
+nemo
+fish
+fastfetch
+loupe
+vlc
+satty
+nvidia-container-toolkit
+zen-browser-bin
+zoxide

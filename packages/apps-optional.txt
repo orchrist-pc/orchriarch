@@ -1,0 +1,9 @@
+zed
+helix
+obsidian
+discord
+wtype
+xdotool
+docker
+docker-compose
+flatpak

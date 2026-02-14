@@ -1,0 +1,14 @@
+{
+  "dankHyprlandWindows": {
+    "enabled": true,
+    "trigger": "!"
+  },
+  "dankLauncherKeys": {
+    "enabled": true,
+    "noTrigger": false,
+    "providers": [
+      "hyprland",
+      "sway"
+    ]
+  }
+}
