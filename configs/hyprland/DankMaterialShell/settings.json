@@ -370,7 +370,7 @@
   "osdPosition": 0,
   "osdVolumeEnabled": true,
   "osdMediaVolumeEnabled": true,
-  "osdMediaPlaybackEnabled": true,
+  "osdMediaPlaybackEnabled": false,
   "osdBrightnessEnabled": true,
   "osdIdleInhibitorEnabled": true,
   "osdMicMuteEnabled": true,
@@ -538,7 +538,7 @@
       "shadowColorMode": "custom",
       "shadowOpacity": 100,
       "scrollEnabled": false,
-      "widgetOutlineEnabled": true,
+      "widgetOutlineEnabled": false,
       "widgetOutlineThickness": 2,
       "widgetOutlineOpacity": 0.5
     }
