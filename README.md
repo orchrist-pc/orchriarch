@@ -31,10 +31,9 @@ Most of this code was yoinked from TheBlackDon on youtube. If you enjoy this ren
 ### Quick Install
 
 ```bash
-sudo pacman -S yay
 git clone https://github.com/orchrist-pc/orchriarch.git
 cd orchriarch
-./install.sh ( you may need to run chmod +x install.sh first )
+sh ./install.sh
 ```
 
 The installer will guide you through:
