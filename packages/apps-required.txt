@@ -6,5 +6,6 @@ loupe
 vlc
 satty
 nvidia-container-toolkit
+wlopm
 zen-browser-bin
 zoxide
