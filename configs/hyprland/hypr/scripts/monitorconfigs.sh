@@ -29,6 +29,14 @@ case "$1" in
         sed -i -r "s|/monitors/.*\.conf|/monitors/fold.conf|1" $HYPRCONF
         sed -i -r "s|/workspaces/.*\.conf|/workspaces/default.conf|1" $HYPRCONF
         ;;
+    -l | --laptop)
+        hyprctl output create auto sunshine
+        sleep 2
+        pactl set-default-sink "alsa_output.usb-GuangZhou_FiiO_Electronics_Co._Ltd_FiiO_K3-00.analog-stereo"
+        sleep 2
+        sed -i -r "s|/monitors/.*\.conf|/monitors/laptop.conf|1" $HYPRCONF
+        sed -i -r "s|/workspaces/.*\.conf|/workspaces/default.conf|1" $HYPRCONF
+        ;;
     -s | --steamdeck)
         hyprctl output create auto sunshine
         sleep 2
@@ -51,4 +59,5 @@ esac
 
 hyprctl reload
 dms restart
+dms ipc call bar reveal index 0
 hyprctl dispatch workspace e-1

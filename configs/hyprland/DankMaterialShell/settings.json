@@ -245,7 +245,7 @@
   "dankLauncherV2UnloadOnClose": false,
   "useAutoLocation": true,
   "weatherEnabled": true,
-  "networkPreference": "ethernet",
+  "networkPreference": "wifi",
   "iconTheme": "Tela-purple-dark",
   "cursorSettings": {
     "theme": "System Default",
@@ -584,7 +584,7 @@
       "autoHide": false,
       "autoHideDelay": 250,
       "openOnOverview": true,
-      "visible": true,
+      "visible": false,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
       "shadowIntensity": 100,
@@ -809,8 +809,8 @@
         "DP-3": {
           "width": 320,
           "height": 480,
-          "x": 3080,
-          "y": 80
+          "x": 3040,
+          "y": 120
         },
         "": {
           "width": 160,
