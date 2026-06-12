@@ -122,7 +122,7 @@ The installer will guide you through:
 #### System Keybinds
 - `Super + CTRL + P` - Logout
 - `Super + L` - Lock computer
-- `Super + Shift + H` - Reload Hyprlan
+- `Super + Shift + H` - Reload Hyprland
 - `Super + Shift + Y` - Reload Quickshell/DMS (top bar)
 
 It is highly recommended to lookthrough the kebinds.conf configuration file for a full list of keybinds.
