@@ -1,9 +1,14 @@
 zed
-helix
 obsidian
 discord
 wtype
 xdotool
+flatpak
+rclone
 docker
 docker-compose
-flatpak
+archon-appimage
+raiderio-client
+wowup-cf-bin
+stremio
+yt-dlp

@@ -133,7 +133,7 @@ merge_dms_configs() {
 
     log_info "Replacing hardcoded paths in DMS Settings"
     sed -i -r "s|/home/orchrist|$user_home|g" "$repo_dir/configs/hyprland/DankMaterialShell/settings.json"
-    
+
     log_success "DMS configurations merged"
 }
 
@@ -142,6 +142,7 @@ deploy_configurations() {
     local repo_dir="$1"
     local install_hyprland="$2"
     local user_home=$(get_user_home)
+    local config_dir="$user_home/.config"
 
     log_step "Deploying Configurations"
 

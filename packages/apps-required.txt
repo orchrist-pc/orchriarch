@@ -4,8 +4,10 @@ fish
 fastfetch
 loupe
 vlc
+vlc-plugins-all
 satty
 nvidia-container-toolkit
 wlopm
 zen-browser-bin
 zoxide
+7zip

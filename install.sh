@@ -81,6 +81,10 @@ select_optional_apps() {
     echo "5) Macro Tools (wtype + xdotool)"
     echo "6) Docker (docker + docker-compose)"
     echo "7) Flatpak"
+    echo "8) World of Warcraft Apps (WoWUp + Raider-IO + Archon)"
+    echo "9) YT-DLP"
+    echo "10) Stremio"
+    echo "11) Rclone (google drive sync)"
     echo ""
 
     read -p "Enter your choices (e.g. 'a' to install all, '1 2 3 4' for specifics, or just Enter to skip): " choices
@@ -112,6 +116,14 @@ select_optional_apps() {
              OPTIONAL_APPS+=("docker-compose")
              ;;
             7) OPTIONAL_APPS+=("flatpak") ;;
+            8)
+             OPTIONAL_APPS+=("wowup-cf-bin")
+             OPTIONAL_APPS+=("raiderio-client")
+             OPTIONAL_APPS+=("archon-appimage")
+             ;;
+            9) OPTIONAL_APPS+=("yt-dlp") ;;
+            10) OPTIONAL_APPS+=("stremio") ;;
+            11) OPTIONAL_APPS+=("rclone") ;;
             *) log_warn "Invalid choice '$choice' ignored" ;;
         esac
     done
