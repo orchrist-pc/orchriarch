@@ -245,7 +245,7 @@
   "dankLauncherV2UnloadOnClose": false,
   "useAutoLocation": true,
   "weatherEnabled": true,
-  "networkPreference": "wifi",
+  "networkPreference": "ethernet",
   "iconTheme": "Tela-purple-dark",
   "cursorSettings": {
     "theme": "System Default",
@@ -285,8 +285,8 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "acMonitorTimeout": 1800,
-  "acLockTimeout": 1200,
+  "acMonitorTimeout": 600,
+  "acLockTimeout": 0,
   "acSuspendTimeout": 0,
   "acSuspendBehavior": 0,
   "acProfileName": "",
@@ -298,10 +298,10 @@
   "batteryChargeLimit": 100,
   "lockBeforeSuspend": false,
   "loginctlLockIntegration": true,
-  "fadeToLockEnabled": true,
+  "fadeToLockEnabled": false,
   "fadeToLockGracePeriod": 5,
   "fadeToDpmsEnabled": true,
-  "fadeToDpmsGracePeriod": 5,
+  "fadeToDpmsGracePeriod": 10,
   "launchPrefix": "",
   "brightnessDevicePins": {},
   "wifiNetworkPins": {
@@ -309,7 +309,11 @@
       "Toad Hall East"
     ]
   },
-  "bluetoothDevicePins": {},
+  "bluetoothDevicePins": {
+    "preferredDevice": [
+      "A1:0E:15:51:34:D3"
+    ]
+  },
   "audioInputDevicePins": {},
   "audioOutputDevicePins": {},
   "gtkThemingEnabled": true,
@@ -584,7 +588,7 @@
       "autoHide": false,
       "autoHideDelay": 250,
       "openOnOverview": true,
-      "visible": false,
+      "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
       "shadowIntensity": 100,
@@ -819,6 +823,18 @@
           "y": 0
         },
         "sunshine": {
+          "width": 320,
+          "height": 480,
+          "x": 320,
+          "y": 30
+        },
+        "sunshine1": {
+          "width": 320,
+          "height": 480,
+          "x": 320,
+          "y": 30
+        },
+        "HEADLESS-2": {
           "width": 320,
           "height": 480,
           "x": 320,
