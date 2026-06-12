@@ -83,8 +83,12 @@ The installer will guide you through:
 - Obsidian (notes vault)
 - Discord
 - Macro tools (wtype + xdotool)
-- docker + docker-compose
-- flatpak (install flatpak applications)
+- Docker + Docker-Compose
+- Flatpak (install flatpak applications)
+- rclone (syncing tool for online services like Google Drive)
+- World of Warcraft tools (Archon, WoWUp, RaiderIO)
+- Stremio
+- YT-DLP (youtube downloading tool)
 
 ## Post-Installation
 
