@@ -161,12 +161,11 @@ deploy_configurations() {
     rm -rf "$repo_dir/configs/shared/gtk-3.0/bookmarks"
 
     log_info "Setting default monitor and workspaces configurations..."
-    sed -i -r "s|/monitors/.*\.conf|/monitors/default.conf|1" "$repo_dir/configs/hyprland/hypr/hyprland.conf"
-    sed -i -r "s|/workspaces/.*\.conf|/workspaces/default.conf|1" "$repo_dir/configs/hyprland/hypr/hyprland.conf"
-    sed -i -r "s|/home/orchrist|$user_home|1" "$repo_dir/configs/hyprland/hypr/scripts/monitorconfigs.sh"
+    sed -i -r "s|config.monitors.*|config.monitors.default')|1" "$repo_dir/configs/hyprland/hypr/hyprland.lua"
+    sed -i -r "s|config.workspaces.*|config.workspaces.default')|1" "$repo_dir/configs/hyprland/hypr/hyprland.lua"
 
     log_info "Commenting out including custom config files for hyprland and fish..."
-    sed -i -r 's|/mnt/Storage/Config\ Files/dotfiles/|~/.config/hypr/config/|1' "$repo_dir/configs/hyprland/hypr/hyprland.conf"
+    sed -i -r 's|/mnt/Storage/Config\ Files/dotfiles/|~/.config/hypr/config/|1' "$repo_dir/configs/hyprland/hypr/hyprland.lua"
     sed -i -r 's|"/mnt/Storage/Config Files/dotfiles/custom.fish"|~/.config/fish/custom.fish|1' "$repo_dir/configs/shared/fish/config.fish"
 
     log_success "All configurations deployed successfully"
