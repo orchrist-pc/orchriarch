@@ -729,7 +729,7 @@
       "autoHide": false,
       "autoHideDelay": 250,
       "openOnOverview": true,
-      "visible": false,
+      "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
       "shadowIntensity": 0,

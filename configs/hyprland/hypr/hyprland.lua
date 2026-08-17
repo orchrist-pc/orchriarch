@@ -12,8 +12,8 @@
 
 -- ==== CONFIG FILES =========================== #
 
-require('config.monitors.sunshine')
-require('config.workspaces.default')
+require('config.monitors.all')
+require('config.workspaces.all')
 require("config.decorations")
 require("config.keybindings")
 require("config.windowrules")
